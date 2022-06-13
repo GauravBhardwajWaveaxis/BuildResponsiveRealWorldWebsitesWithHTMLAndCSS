@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 60px;
+  padding: 60px;
+}
+
+.product {
+  border: 2px solid black;
+  width: 850px;
+  margin: auto;
+  padding: auto;
+}
+
+.heading {
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: grey;
+  padding: 15px 50px;
+}
+
+.pricing {
+  font-size: 24px;
+}
+
+.shipping {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: grey;
+  margin-bottom: 20px;
+}
+.info {
+  margin-bottom: 20px;
+}
+
+.more-info {
+  margin-bottom: 20px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.product-title {
+  text-transform: uppercase;
+}
+
+.product-list {
+  list-style: square;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.add-cart {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+  padding: 20px 0;
+}
+.add-cart:hover {
+  color: blueviolet;
+  background-color: blanchedalmond;
+}
+
+/* //--------------My Code---------------// */
+/* .heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+a:link {
+  font-size: 19px;
+}
+a:hover {
+  color: grey;
+}
+
+p,
+li {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.listItem {
+  color: brown;
+} */
+
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "SALE";
+  color: white;
+  letter-spacing: 2px;
+  background-color: red;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  display: inline-block;
+  padding: 5px 15px;
+  top: -20px;
+  left: -40px;
+}
